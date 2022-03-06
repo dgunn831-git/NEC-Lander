@@ -95,10 +95,28 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-a{
-	text-decoration:none;
-	cursor:pointer;
-	color:#007dd1;
+.lag-logo{
+	z-index:1;
+}
+.lag-logo img{
+	height:45px;
+	border-radius:3px;
+}
+.get-started{
+	z-index:1;
+	height:45px;
+	border-radius:3px!important	;
+}
+.get-started a {
+	color: white;
+}
+.head-nav{
+	padding:2px 0px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #007dd1;
 }
 
 a:hover,a:focus,a:visited{
@@ -145,7 +163,7 @@ p{
 	margin:0 auto;
 	width:100%;
 	min-width:300px;
-	
+	max-width:750px;
 }
 
 ul,li{
@@ -254,7 +272,7 @@ ul,li{
 
 .theme-btn .fa{
 	position:relative;
-	top:2px;
+	top:1px;
 	padding-left:7px;
 }
 
@@ -543,9 +561,12 @@ ul,li{
 ====================================================================
 
 ***/
+.inner-content{
+	padding-top:49px;
+}
 
 .main-header{
-	position:relative;
+	position:fixed;
 	left:0px;
 	top:0px;
 	z-index:999;
@@ -1332,7 +1353,7 @@ ul,li{
 }
 
 .sec-title h1{
-	font-size:48px;
+	/*font-size:48px;*/
 	color:#1c2125;
 	font-weight:600;
 	line-height:1.2em;
@@ -1384,12 +1405,24 @@ ul,li{
 
 .featured-service-column .inner-box{
 	position:relative;
-	display:block;	
+	display:block;
+	text-align:center;
 }
 
-.featured-service-column .image-box{
-	position:relative;
-	display:block;	
+.featured-service-column .image-box {
+	position: relative;
+	display: block;
+	background-image: url(/images/resource/learn.jpg);
+	height: 300px;
+	background-size:cover;
+}
+.featured-service-column .image-box h1 {
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+	background-color: #00000044;
+	padding: 20px;
 }
 
 .featured-service-column .image-box img{
@@ -1531,11 +1564,16 @@ ul,li{
 
 .call-section {
 	position: relative;
-	padding: 20px 0px 160px;
+	padding: 0px 0px 90px;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #243a51;
+}
+
+.call-section h1 {
+	background-color: #00000044;
+	padding: 20px;
 }
 
 .call-section:before {
@@ -1593,13 +1631,18 @@ ul,li{
 
 .default-service-block{
 	position:relative;
-	margin-bottom:10px;	
+	margin:auto;	
 }
 
 .services-section .default-service-block{
 	padding:0px 5px;	
 }
 
+.link-caret {
+	position: relative;
+	top: 1px;
+	margin-left: 4px;
+}
 .default-service-block .inner-box {
 	background: #4e5050 none repeat scroll 0 0;
 	color: #ffffff;
@@ -1812,7 +1855,7 @@ ul,li{
 }
 
 .default-section .text-column .text{
-	padding-bottom:20px;	
+	padding:10px 30px;	
 }
 
 .default-section .text-column .text p{
@@ -2718,6 +2761,7 @@ ul,li{
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-color:#243a51;
+	background-position:center;
 }
 
 .video-section .play-link{
@@ -2731,7 +2775,7 @@ ul,li{
 	width:100%;
 	height:100%;
 	color:#ffffff;
-	padding:130px 0px 150px;
+	padding:40px 0px 30px;
 	background:rgba(0,0,0,0.70);
 	transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
@@ -2773,7 +2817,26 @@ ul,li{
 
 .news-section{
 	position:relative;
-	padding:100px 0px 50px;
+	padding:0px 0px 50px;
+}
+
+.news-list{
+	margin:10px 20px 30px;
+}
+
+.news-list li{
+	list-style:disc;
+}
+
+.news-image {
+	background-position: center;
+	height: 100px;
+	background-size: cover;
+}
+.news-title{
+	text-align:center;
+	color:black;
+	font-weight:bold;
 }
 
 .news-style-one{
@@ -2889,13 +2952,13 @@ ul,li{
 
 .default-news-post .lower-content{
 	position:relative;
-	padding-top:25px;
+	padding:20px 20px 0px;
 }
 
 .default-news-post h3{
 	font-size:20px;
 	line-height:1.4em;
-	margin-bottom:15px;
+	margin:30px 0px 10px;
 	color:#1c2125;
 	font-weight:600;
 }

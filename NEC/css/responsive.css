@@ -209,8 +209,8 @@
 
 }
 
-@media only screen and (max-width: 767px){
-	
+/*@media only screen and (max-width: 767px){
+*/	
 	.main-header .nav-outer{
 		padding-right:0px;	
 	}
@@ -599,8 +599,8 @@
 	.main-header .header-main-box .btn-outer .quote-btn{
 		display: none;
 	}
-}
-
+/*}
+*/
 @media only screen and (max-width: 599px){
 	
 	.main-header .social-links-one{
