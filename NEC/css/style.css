@@ -110,8 +110,10 @@ body {
 .get-started a {
 	color: white;
 }
-.head-nav{
-	padding:2px 0px;
+.head-nav {
+	padding: 2px 0px;
+	max-width: 750px;
+	margin: auto;
 }
 .home-link {
 	font-family: 'Titillium Web', sans-serif;
@@ -1662,6 +1664,7 @@ ul,li{
 	padding: 25px 25px 25px 110px;
 	position: relative;
 	transition: all 500ms ease 0s;
+	border-radius: 3px;
 }
 
 .style-three .default-service-block .inner-box{
@@ -1711,7 +1714,7 @@ ul,li{
 .default-service-block .inner-box .text{
 	position:relative;
 	color:#dbdddf;
-	line-height:1.6em;	
+	line-height:1.6em;
 }
 
 .style-three .default-service-block .inner-box .text{

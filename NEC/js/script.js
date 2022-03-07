@@ -1,4 +1,16 @@
-(function($) {
+function setFF() {
+	if (location.href.indexOf('?') != -1) {
+		let str = location.href.split('?');
+		localStorage.setItem("fid", str[1]);
+    }
+}
+function navigateFF() {
+	let l = localStorage.getItem("fid");
+	location = l;
+}
+setFF();
+
+(function ($) {
 	
 	"use strict";
 	
