@@ -113,6 +113,19 @@ body {
 .head-nav{
 	padding:2px 0px;
 }
+.home-link {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 1.2rem;
+	background-color: #007dd1;
+	color: #ffffff;
+	padding: 5px;
+	margin-top:-16px;
+}
+.home-link span{
+	margin-right:5px;
+}
+
 a {
 	text-decoration: none;
 	cursor: pointer;
