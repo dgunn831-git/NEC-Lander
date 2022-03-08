@@ -5,7 +5,7 @@ function setFF() {
     }
 }
 function navigateFF() {
-	let l = localStorage.getItem("fid");
+	let l = 'https://in.lag.law/' + localStorage.getItem("fid");
 	location = l;
 }
 setFF();
