@@ -10,6 +10,14 @@ function navigateFF() {
 }
 setFF();
 
+function showTranscript() {
+	let s = document.getElementById("summary");
+	let t = document.getElementById("full-script");
+
+	s.style.display = "none";
+	t.style.display = "block";
+}
+
 (function ($) {
 	
 	"use strict";

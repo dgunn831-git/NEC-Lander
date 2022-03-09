@@ -5268,3 +5268,7 @@ blockquote.style-one{
 	line-height:20px;
 	font-style:normal;
 }
+
+#preview-frame{
+	width:100%;
+}
