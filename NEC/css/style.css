@@ -2799,8 +2799,8 @@ ul,li{
 	width:100%;
 	height:100%;
 	color:#ffffff;
-	padding:40px 0px 30px;
-	background:rgba(0,0,0,0.70);
+	padding:10px 0px 10px;
+	background:rgba(0,0,0,0.50);
 	transition: all 500ms ease;
 	-webkit-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -2809,7 +2809,7 @@ ul,li{
 }
 
 .video-section .play-link:hover{
-	background:rgba(0,0,0,0.90);	
+	background:rgba(0,0,0,0.60);	
 }
 
 .video-section .play-link .text{
@@ -2829,6 +2829,7 @@ ul,li{
 	padding-left: 5px;
 	position: relative;
 	width: 100px;
+	background-color:#ffffff33;
 }
 
 /*** 
