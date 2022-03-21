@@ -18,6 +18,15 @@ function showTranscript() {
 	t.style.display = "block";
 }
 
+function toggleFAQ(tgt) {
+	var d = document.getElementById(tgt);
+	let vis = d.style.display;
+	if (vis == "none")
+		d.style.display = "block";
+	else
+		d.style.display = "none";
+}
+
 (function ($) {
 	
 	"use strict";
