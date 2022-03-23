@@ -24,26 +24,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NEC", "NEC\", "{56B0D8A8-3A
 		SlnRelativePath = "NEC\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "legaljustice", "D:\dgunn\Downloads\legaljustice pack\legaljustice\", "{E47B30EB-EBB1-43D4-88AC-69351A146C9B}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_62509"
-		Debug.AspNetCompiler.PhysicalPath = "D:\dgunn\Downloads\legaljustice pack\legaljustice\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62509\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_62509"
-		Release.AspNetCompiler.PhysicalPath = "D:\dgunn\Downloads\legaljustice pack\legaljustice\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62509\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "62509"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,8 +31,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{56B0D8A8-3A5C-433B-ABBA-CADDB40B93F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{56B0D8A8-3A5C-433B-ABBA-CADDB40B93F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E47B30EB-EBB1-43D4-88AC-69351A146C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E47B30EB-EBB1-43D4-88AC-69351A146C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
